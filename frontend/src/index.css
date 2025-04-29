@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: none;
+    outline: none;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Трек */
+::-webkit-scrollbar-track {
+    background: #e5e7eb; /* Tailwind gray-200 */
+    border-radius: 9999px;
+}
+
+/* Ползунок */
+::-webkit-scrollbar-thumb {
+    background: #3b82f6; /* Tailwind blue-500 */
+    border-radius: 9999px;
+}
+
+/* Hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #2563eb; /* Tailwind blue-600 */
+}

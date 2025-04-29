@@ -11,6 +11,13 @@ services:
       - REDIS_HOST=redis
       - REDIS_PORT=6379
 
+  frontend:
+    build: ./frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
   redis:
     image: redis:7
     container_name: redis

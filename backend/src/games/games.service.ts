@@ -31,7 +31,6 @@ export class GamesService {
         }
         const gameId = match[1];
 
-        // Сначала ищем в Redis
         const cached = await this.redisService.get(gameId);
         if (cached) {
             return JSON.parse(cached);

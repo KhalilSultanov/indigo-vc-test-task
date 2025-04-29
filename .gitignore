@@ -3,9 +3,39 @@ backend/dist/
 backend/coverage/
 backend/.nyc_output/
 backend/*.tsbuildinfo
+backend/.vite/
+backend/.env.local
+backend/.env.development.local
+backend/.env.test.local
+backend/.env.production.local
+backend/.npm/
+backend/.pnpm/
+backend/.yarn/
+backend/.out/
+backend/storybook-static/
+backend/*.log
+backend/Thumbs.db
+backend/.DS_Store
+
+frontend/node_modules/
+frontend/dist/
+frontend/coverage/
+frontend/.vite/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/.npm/
+frontend/.pnpm/
+frontend/.yarn/
+frontend/.out/
+frontend/storybook-static/
+frontend/*.tsbuildinfo
+frontend/*.log
+frontend/Thumbs.db
+frontend/.DS_Store
 
 build/
-
 pnpm-lock.yaml
 yarn.lock
 
@@ -23,5 +53,6 @@ pnpm-debug.yaml
 .vscode/
 
 .DS_Store
+Thumbs.db
 
 docker-compose.override.yml
